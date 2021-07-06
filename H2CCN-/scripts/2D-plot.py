@@ -110,7 +110,7 @@ ax2.set_xticks(new_ticks)
 ax2.set_xticklabels(new_labels)
 ax2.set_xlabel('Vibrational mode',fontsize=14)
 #plt.plot(x,y)
-plt.savefig('color-map.pdf',dpi=400,bbbox_inches='tight')
+plt.savefig('color-map.pdf',dpi=200,bbbox_inches='tight')
 plt.show()
 #for i in files:
     #print(i)
